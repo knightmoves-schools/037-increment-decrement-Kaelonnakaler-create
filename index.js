@@ -1,7 +1,7 @@
 var counter = 0;
-let prefixIncrement = ++counter;
-let postfixIncrement = counter++;
-let prefixDecrement = --counter;
-let postfixDecrement = counter--;
+var counter = prefixIncrement;
+var counter = postfixIncrement;
+var counter = prefixDecrement;
+var counter = postfixDecrement;
 
 document.getElementById("result").innerHTML = counter;
